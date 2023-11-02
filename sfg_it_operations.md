@@ -1,3 +1,4 @@
+# Sonderfachgremium Cloud/IT Operations
 ## Protocol
 Special Expert Committee IT on the topic "Cloud/IT Operations"
 December 13, 2022, 10:00 – 12:00
