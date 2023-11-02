@@ -1,5 +1,5 @@
-# Protocol
-Special IT Panel on Cloud on the topic of "CMDB" 01.03.2022
+# Sonderfachgremium Cloud/CMDB
+## Special IT Panel on Cloud on the topic of "CMDB" 01.03.2022
 Video Conference
 Special IT Panel on Cloud on 26.01.2021, 09:30 – 13:30 via Video Conference
 
