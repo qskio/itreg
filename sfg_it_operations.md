@@ -28,7 +28,7 @@ Subsequently – especially along the lines of the BAIT/VAIT – the focus is on
 
 Also, in the area of IT operations, an important challenge is that the provision of cloud services by the cloud provider is characterized by an abstraction boundary[^1]. The abstraction boundary runs differently according to the specific cloud service used, depending on the commissioned service model (e.g., SaaS, PaaS, IaaS) and the type of use by the supervised company. Thus, the abstraction boundary represents the boundary of responsibility between supervised companies and the cloud provider. With respect to IT operations – according to this distribution of responsibilities – below the abstraction boundary, the processes and procedures of the cloud provider are fundamentally relevant, above the abstraction boundary, those of the respective supervised company.
 
-[^1]: See protocol of the Special Expert Committee Cloud on the topic "CMDB": [Link to document](https://www.bafin.de/SharedDocs/Downloads/DE/Protokoll/dl_01032022_Protokoll_Sonderfachgremium_IT.pdf)
+
 
 To ensure safe and stable IT operations and appropriate detection and control of IT risks, the interface between the cloud provider and the supervised company must be appropriately designed across the abstraction boundary. The following cloud-specific challenges arise in particular:
 
@@ -81,7 +81,7 @@ In principle, the supervised company must determine which information is relevan
 
 9. The supervised company can configure aspects of capacity planning in the corresponding service commissioning with the cloud provider, provided that the service configuration allows it.
 
----
+[^1]: See protocol of the Special Expert Committee Cloud on the topic "CMDB": [Link to document](https://www.bafin.de/SharedDocs/Downloads/DE/Protokoll/dl_01032022_Protokoll_Sonderfachgremium_IT.pdf)
 
 [^2] See protocol of the Special Expert Committee Cloud on the topic "Certificates": https://www.bafin.de/SharedDocs/Downloads/DE/Protokoll/dl_07102021_Protokoll_Sonderfachgremium.pdf?__blob=publicationFile&v=1
 
