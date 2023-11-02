@@ -83,9 +83,9 @@ In principle, the supervised company must determine which information is relevan
 
 [^1]: See protocol of the Special Expert Committee Cloud on the topic "CMDB": [Link to document](https://www.bafin.de/SharedDocs/Downloads/DE/Protokoll/dl_01032022_Protokoll_Sonderfachgremium_IT.pdf)
 
-[^2] See protocol of the Special Expert Committee Cloud on the topic "Certificates": https://www.bafin.de/SharedDocs/Downloads/DE/Protokoll/dl_07102021_Protokoll_Sonderfachgremium.pdf?__blob=publicationFile&v=1
+[^2]: See protocol of the Special Expert Committee Cloud on the topic "Certificates": https://www.bafin.de/SharedDocs/Downloads/DE/Protokoll/dl_07102021_Protokoll_Sonderfachgremium.pdf?__blob=publicationFile&v=1
 
-[^3] According to MaRisk, banks must specify in the outsourcing contract agreed in text form, among other things, the service to be provided by the cloud provider and, if necessary, define it, and the quality of service must be agreed with clearly defined performance targets (AT 9 Tz. 7 MaRisk). From January 17, 2025, the DORA regulation (Article 64 DORA) applies. According to Article 30 (2) lit e, (3) lit a DORA, the contractual agreements on the use of ICT services include, among other things, descriptions of the quality of service.
+[^3]: According to MaRisk, banks must specify in the outsourcing contract agreed in text form, among other things, the service to be provided by the cloud provider and, if necessary, define it, and the quality of service must be agreed with clearly defined performance targets (AT 9 Tz. 7 MaRisk). From January 17, 2025, the DORA regulation (Article 64 DORA) applies. According to Article 30 (2) lit e, (3) lit a DORA, the contractual agreements on the use of ICT services include, among other things, descriptions of the quality of service.
 
-[^4] From January 17, 2025, the DORA regulation (Article 64 DORA) applies. According to Article 30 (2) lit e, (3) lit a DORA, the contractual agreements on the use of ICT services include, among other things, descriptions of the quality of service.
+[^4]: From January 17, 2025, the DORA regulation (Article 64 DORA) applies. According to Article 30 (2) lit e, (3) lit a DORA, the contractual agreements on the use of ICT services include, among other things, descriptions of the quality of service.
 
