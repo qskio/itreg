@@ -39,7 +39,7 @@ To ensure safe and stable IT operations and appropriate detection and control of
 
 However, the responsibility for the cloud outsourcing remains with the supervised company, regardless of the distribution of responsibilities. Thus, the questions arise in particular (i) whether the IT operations processes at the cloud provider meet the supervisory and own requirements and (ii) how the appropriate linkage between the two spheres of responsibility can be ensured by the supervised company.
 
-# Discussion Results
+### Discussion Results
 
 The appropriateness of the IT operational processes of cloud providers must be assessed in connection with the service and provider management by the supervised company. Cloud providers typically offer a Service Level Agreement (SLA) as a quality assurance for the provided services, in which the quality of service is described and contractually guaranteed. In this context, solutions were developed in past special expert committees, especially in the Special Expert Committee Cloud on the topic of "Certificates" on 07.10.2021[^2], which are also applicable in the context of IT operations.
 
@@ -51,19 +51,19 @@ When using the cloud, information for the customer is usually not individually p
 
 In principle, the supervised company must determine which information is relevant for the operation of the services, which of this information is provided by the cloud provider, what residual risks arise from a lack of transparency, and what mitigation or risk treatment strategies need to be implemented. The following points are to be understood as possible solution outlines and do not constitute a universally valid implementation guide.
 
-## Description and Monitoring of Service Quality
+#### Description and Monitoring of Service Quality
 
 1. Contractual arrangements form the basis for control by the supervised companies. A description of the quality of service by the cloud provider is required for the used services.[^3]
 
 2. For appropriate control of the services, the supervised company must compare its own specifications with the contractually assured quality of service. For deviations from the specifications, the supervised company must conduct a risk analysis and check whether the services can be used against this background with the descriptions of service quality (e.g., SLAs) offered by the cloud provider. The supervised company can take additional information, e.g., in dialogue with the cloud provider, to improve the assessment of the services.
 
-## Risk Management
+#### Risk Management
 
 3. Depending on the risk content of the IT system, an analysis of the inherent risks of the services provided by the cloud provider must be carried out before using the cloud service, whereby use is only permissible if the resulting risks are bearable. The risk analysis must be validated regularly.
 
 4. According to the risk content of the outsourced matter and the used services, the establishment of a service and provider management for controlling the cloud provider must be designed, at least by conducting regular meetings between the supervised company and cloud provider across various organizational levels for information procurement of the used services.
 
-## Information Procurement and Processing
+#### Information Procurement and Processing
 
 5. Information on the lifecycle (changes or shutdown) of used services is matched with one's own planning to be able to react in time to changes.
 
@@ -73,7 +73,7 @@ In principle, the supervised company must determine which information is relevan
 
    b. For medium- to long-term relevant information, e.g., changes in the Service Terms or APIs, announced changes must be regularly reviewed and assessed for any impact on the used services and corresponding measures derived.[^4]
 
-## Adjustment of the Configuration of Cloud Services
+#### Adjustment of the Configuration of Cloud Services
 
 7. Recommendations of the cloud provider (e.g., sizing) should be regularly reviewed, and the allocated services adjusted according to one's own specifications, taking into account the recommendations of the cloud providers.
 
