@@ -1,5 +1,3 @@
-# Protocol: Special Expert Committee IT on 31.05.2023
-
 ## Protocol
 Special Expert Committee IT on the topic "Cloud/IT Operations"
 December 13, 2022, 10:00 – 12:00
