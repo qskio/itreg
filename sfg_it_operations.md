@@ -1,57 +1,40 @@
-# Protocol: Special Expert Panel IT on May 31, 2023
+# Protocol: Special Expert Committee IT on 31.05.2023
 
 ## Protocol
-Special Expert Panel IT on the topic "Cloud/IT Operations"
-- **December 13, 2022, 10:00 – 12:00**
-- **May 31, 2023, 10:00 – 12:00**
-- **Via video conference**
+Special Expert Committee IT on the topic "Cloud/IT Operations"
+December 13, 2022, 10:00 – 12:00
+May 31, 2023, 10:00 – 12:00
+via video conference
 
 ### Preamble
-This protocol summarizes the key discussion aspects and results from two dates of the Special Expert Panel IT on the topic "Cloud/IT Operations." The following considers the processes and procedures typically assigned to IT operations units and addressed in Chapter 8 of the BAIT/VAIT.
 
-There is a consensus among the participants of the Special Expert Panel that future practical experiences or changing regulatory conditions (e.g., DORA) may require an adjustment of the discussion results. Therefore, the discussion results do not represent a concluded implementation guide for supervised companies. Instead, a framework should be created, the elements of which must be fleshed out, agreed upon, implemented, and regularly evaluated with cloud providers.
+In the present protocol, the main aspects of the discussion as well as the results from two dates of the Special Expert Committee IT on the topic "Cloud/IT Operations" are summarized. Subsequently, the processes and procedures that are usually assigned to the IT operations units and are dealt with in Chapter 8 of the BAIT / VAIT are considered.
+
+Among the participants of the Special Expert Committee, there is a consensus that future practical experiences or changing regulatory conditions (e.g., DORA) may require an adjustment of the discussion results. Precisely for this reason, the discussion results do not represent a concluded implementation guide for supervised companies. Rather, a framework should be created, the elements of which must be fleshed out, agreed upon, implemented, and regularly evaluated by the supervised companies with the cloud providers.
 
 ### Supervisory Requirements for IT Operations
-For banks, the supervisory requirements for IT operations primarily derive from:
-- EBA guidelines for managing ICT and security risks (especially Section 3.3)
-- Guidelines on outsourcing, MaRisk (especially AT 7.2 Tz. 1 - 5), and BAIT (especially Chapter 8 in conjunction with Chapter 2)
 
-For the insurance industry, requirements stem from:
-- EIOPA guidelines on outsourcing to cloud providers
-- Guidelines on security and governance in ICT, MaGo, MaGo for EbAV, MaGo for small insurance companies, and VAIT
+The supervisory requirements for IT operations are derived for banks primarily from the EBA guidelines for the management of ICT and security risks (esp. Section 3.3), as well as the guidelines on outsourcing, the MaRisk (esp. AT 7.2 Tz. 1 - 5), and the BAIT (esp. Chapter 8 in conjunction with Chapter 2). For the insurance industry, the requirements are derived from the EIOPA guidelines on outsourcing to cloud providers and the guidelines on security and governance in the area of information and communication technology, the minimum requirements for the business organization of insurance companies (MaGo, MaGo for EbAV, MaGo for small insurance companies), as well as the VAIT.
 
-The focus is on the following processes:
-- Change management (8.4 and 8.5 BAIT/VAIT)
-- Incident and problem handling (8.6 BAIT/VAIT)
-- Data backup concepts (8.7 BAIT/VAIT)
-- Lifecycle management of IT components (8.3 BAIT/VAIT)
-- Capacity management (8.8 BAIT/VAIT)
+Subsequently – especially along the lines of the BAIT/VAIT – the focus is on the following processes:
 
-### Issues for Supervised Companies
-In IT operations, a significant challenge is the "abstraction boundary" that characterizes the division of responsibilities between supervised companies and cloud providers, varying by the specific cloud service model (e.g., SaaS, PaaS, IaaS) and its use by the supervised company.
+- Process for the management of changes (8.4 and 8.5 BAIT / VAIT),
+- Disturbance and problem handling (8.6 BAIT / VAIT),
+- Data backup concepts (8.7 BAIT / VAIT),
+- Lifecycle management of IT components (8.3 BAIT / VAIT), and
+- Capacity management (8.8 BAIT / VAIT).
 
-To ensure secure and stable IT operations and adequate IT risk management, the interface between cloud providers and supervised companies must be appropriately designed across this boundary.
+### Problem Statement of the Supervised Companies
 
-### Discussion Results
-The appropriateness of the IT operations processes of cloud providers should be assessed in conjunction with the service and provider management by the supervised company. Cloud providers typically offer a Service Level Agreement (SLA) as a quality assurance for the provided services.
+Also, in the area of IT operations, an important challenge is that the provision of cloud services by the cloud provider is characterized by an abstraction boundary[^1]. The abstraction boundary runs differently according to the specific cloud service used, depending on the commissioned service model (e.g., SaaS, PaaS, IaaS) and the type of use by the supervised company. Thus, the abstraction boundary represents the boundary of responsibility between supervised companies and the cloud provider. With respect to IT operations – according to this distribution of responsibilities – below the abstraction boundary, the processes and procedures of the cloud provider are fundamentally relevant, above the abstraction boundary, those of the respective supervised company.
 
-The supervised company must actively seek information from the cloud provider ("Fetch Principle") and adapt or develop additional IT operations processes accordingly.
+[^1]: See protocol of the Special Expert Committee Cloud on the topic "CMDB": [Link to document](https://www.bafin.de/SharedDocs/Downloads/DE/Protokoll/dl_01032022_Protokoll_Sonderfachgremium_IT.pdf)
 
-### Risk Management
-Before using cloud services, an analysis of the inherent risks provided by the cloud provider is necessary, and use is only permissible if the resulting risks are bearable. The risk analysis must be regularly validated.
+To ensure safe and stable IT operations and appropriate detection and control of IT risks, the interface between the cloud provider and the supervised company must be appropriately designed across the abstraction boundary. The following cloud-specific challenges arise in particular:
 
-Depending on the risk content of the outsourced matter and the services used, a service and provider management system for controlling the cloud provider should be established.
+- Limited detailed information on the concrete design of the cloud services, e.g., related to architecture or specific IT components used.
+- Usually, no provision of customer-specific reporting documents by the service provider, instead, independent information procurement by the supervised company on a fetch principle via configurable dashboards/information platforms, sometimes with limited data basis, e.g., when displaying platform-wide failures or service restrictions via Availability Dashboards.
+- Usually, no influence on the internal process design of the cloud provider in IT operations.
+- The service portfolio of a cloud provider is usually globally oriented – this can mean that not all services are available in all regions.
 
-### Information Procurement and Processing
-Information about the lifecycle of used services must be aligned with the company's planning to respond to changes promptly.
-
-The supervised company must understand the information provided by the cloud provider and the communication channels used.
-
-### Adjusting the Configuration of Cloud Services
-Recommendations from the cloud provider (e.g., sizing) should be regularly reviewed and adjusted according to the supervised company's requirements.
-
-The supervised company should continuously monitor and regularly test the successful implementation of data backup tasks if it uses data backup services from the cloud provider.
-
-### Participants on May 31, 2023
-A list of participants from various financial institutions and regulatory bodies, including the Deutsche Bundesbank and the Federal Financial Supervisory Authority (BaFin), is provided.
-
+However, the responsibility for the cloud outsourcing remains with the supervised company, regardless of the distribution of responsibilities. Thus, the questions arise in particular (i) whether the IT operations processes at the cloud provider meet the supervisory and own requirements and (ii) how the appropriate linkage between the two spheres of responsibility can be ensured by the supervised company.
