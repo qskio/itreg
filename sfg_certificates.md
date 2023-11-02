@@ -1,5 +1,4 @@
-# Protocol
-Special IT Panel on Cloud on the topic of "Certificates" on 07.10.2021
+# Sonderfachgremium Cloud/Certificates
 
 ## Protocol
 Special IT Panel on Cloud on the topic of "Certificates" on 07.10.2021
