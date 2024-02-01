@@ -51,3 +51,30 @@ Cloud services are typically provided as the following service models:
 - Infrastructure as a Service (IaaS, providing computing power and storage space),
 - Platform as a Service (PaaS, providing development platforms), or
 - Software as a Service (SaaS, providing software applications/web applications).
+
+These service models differ in terms of the organizational or technical control possibilities of the user. With IaaS, the user has full control over the IT system from the operating system upwards (i.e., the control of the physical environment always lies with the provider), as everything within his area of responsibility is operated, with PaaS, the user only has control over his applications that run on the platform, and with SaaS, the user practically hands over all control to the cloud provider. The higher the complexity of the service model, the lower the user's control possibilities in the cloud are usually. However, the loss of control possibilities by the supervised company does not change its regulatory responsibility regarding compliance with legal provisions.
+
+In practice, four deployment models of cloud services are distinguished:
+- Private Cloud: Cloud infrastructure that can be used exclusively by a single company.
+- Community Cloud: Cloud infrastructure that can be used exclusively by a specific community of companies, including several supervised companies of a single group.
+- Public Cloud: Cloud infrastructure that can be freely used by the public.
+- Hybrid Cloud: Cloud infrastructure that consists of two or more distinct cloud infrastructures.
+
+Depending on the chosen service model, there is a division of labor between the supervised company and the cloud provider regarding responsibility for the operation of the cloud. Depending on the chosen cloud service and service model, the demarcation of responsibilities lies at different points in the abstract layer model (so-called abstraction boundary).
+
+The following explanations apply regardless of the chosen service or deployment model:
+
+> Outlook on DORA
+> 
+> **ICT Services**
+> 
+> DORA defines the term ICT service in Article 3(21) as digital services and data services that are permanently provided to one or more internal or external users via ICT systems. Under DORA, the distinction between "outsourcing" and "other external procurement (of IT services)" is no longer made.
+> 
+> **Critical or important function**
+> 
+> DORA contains special provisions for the use of ICT services to support "critical or important functions" as defined in Article 3(22). These are functions,
+> - the failure of which would significantly impair the financial performance, solidity, or continuation of business activities and services, or
+> - the interrupted, defective, or omitted performance of which would significantly impair the ongoing compliance with the licensing conditions and obligations of a financial company or its other obligations under the applicable financial services law.
+>   
+> In preparation for DORA, it is advisable to give greater weight in the risk analysis to the impact of ICT services on the financial performance, solidity, or continuation of business activities and services, as well as the ongoing compliance with the licensing conditions and obligations of the financial company or its other obligations under the applicable financial services legislation.
+
