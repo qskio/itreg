@@ -26,7 +26,8 @@ Due to the nature of the supervisory communication, "should" formulations are de
 
 [^1]: For more information, refer to the protocols published at: [BaFin's IT Committee page](https://www.bafin.de/DE/Aufsicht/BankenFinanzdienstleister/Fachgremien/IT/informationstechnologie_node.html) or [Bundesbank's IT Committee page](https://www.bundesbank.de/de/aufgaben/bankenaufsicht/einzelaspekte/fachgremien/fachgremium-informationstechnologie-598056)
 
-> Outlook on DORA 
+> Outlook on DORA
+> 
 > **Digital Operational Resilience Act**
 >
 > In the future, Regulation (EU) 2022/2554 of the European Parliament and of the Council on digital operational resilience in the financial sector (Digital Operational Resilience Act – DORA) will, as part of the information and communication technology (ICT) third-party risk management, establish concrete requirements for contractual agreements on the use of ICT services between financial companies (see Art. 2(2) DORA) and ICT third-party service providers, and regulate these requirements across sectors. DORA entered into force on January 16, 2023, and will be directly applicable from January 17, 2025. In addition to regulations on ICT third-party risk management, DORA will particularly include regulations in the areas of ICT governance and risk management, testing of digital operational resilience, reporting mechanisms for significant ICT incidents, and regarding a European supervisory framework for critical ICT third-party service providers. The provisions made in DORA will precede or supplement existing regulations as lex specialis.
@@ -70,10 +71,13 @@ Depending on the chosen service model, there is a division of labor between the 
 The following explanations apply regardless of the chosen service or deployment model:
 
 > Outlook on DORA
+> 
 > **ICT Services**
+> 
 > DORA defines the term of ICT service in Article 3(21) as digital services and data services that are permanently provided to one or more internal or external users via ICT systems. Under DORA, the distinction between "outsourcing" and "other external procurement (of IT services)" is no longer made.
 > 
 > **Critical or important function**
+> 
 > DORA contains special provisions for the use of ICT services to support "critical or important functions" as defined in Article 3(22). These are functions,
 > - whose failure would significantly impair the financial capability, solidity, or continuation of business activities and services, or
 > - whose interrupted, defective, or failed performance would significantly impair the ongoing compliance with the licensing conditions and obligations of a financial company or its other obligations under the applicable financial services law.
