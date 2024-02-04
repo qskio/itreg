@@ -52,15 +52,14 @@ Cloud services are typically provided as the following service models:
 - Platform as a Service (PaaS, providing development platforms), or
 - Software as a Service (SaaS, providing software applications/web applications).
 
-These service models differ in terms of the organizational or technical control possibilities of the user. With IaaS, the user has full control over the IT system from the operating system upwards (i.e., control of the physical environment always lies with the provider), as everything within his area of responsibility is operated, with PaaS, the user only retains control over his applications that run on the platform, and with SaaS, the user essentially hands over all control to the cloud provider. Thus, the higher the complexity of the service model, the generally lower the user's control possibilities in the cloud. However, the loss of control by the supervised company does not alter its regulatory responsibility regarding compliance with legal provisions.
+These service models differ in terms of the organizational or technical control possibilities of the user. With IaaS, the user has full control over the IT system from the operating system upwards (i.e., control of the physical environment always lies with the provider), as everything within his area of responsibility is operated, with PaaS, the user only retains control over his applications that run on the platform, and with SaaS, the user essentially hands over all control to the cloud provider.[^3] Thus, the higher the complexity of the service model, the generally lower the user's control possibilities in the cloud. However, the loss of control by the supervised company does not alter its regulatory responsibility regarding compliance with legal provisions. In practice, four deployment models of cloud services are distinguished[^4]:
 
-In practice, four deployment models of cloud services are distinguished:
 - **Private Cloud:** Cloud infrastructure that can be exclusively used by a single company.
 - **Community Cloud:** Cloud infrastructure that can be exclusively used by a specific community of companies, including several supervised companies of a single group.
 - **Public Cloud:** Cloud infrastructure that can be freely used by the public.
 - **Hybrid Cloud:** Cloud infrastructure that consists of two or more distinct cloud infrastructures.
 
-Depending on the chosen service model, there is a division of labor between the supervised company and the cloud provider regarding responsibility for the operation of the cloud. Depending on the chosen cloud service and service model, the demarcation of responsibilities lies at different points in the abstract layer model (so-called abstraction boundary).
+Depending on the chosen service model, there is a division of labor between the supervised company and the cloud provider regarding responsibility for the operation of the cloud. Depending on the chosen cloud service and service model, the demarcation of responsibilities lies at different points in the abstract layer model (so-called abstraction boundary).[^5]
 
 
 [^2]: EBA/GL/2019/02, Tz. 12 (Begriffsbestimmungen).
