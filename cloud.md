@@ -4,7 +4,7 @@ Updated February 2024
 
 
 
-# Introduction
+# I. Introduction
 
 In recent years, the topic of outsourcing to cloud providers in the financial sector has steadily gained relevance. Accordingly, the German Federal Financial Supervisory Authority (BaFin) and the Deutsche Bundesbank have increasingly engaged in discussions with supervised companies about outsourcing to cloud providers in the last few years. At the same time, the German regulatory authority has also entered into dialogue with various cloud providers. The focus of these discussions was initially on the design of (standard) contracts or contractual supplemental agreements, which are also intended to fulfill and regulate the regulatory requirements, e.g., information and audit rights of the supervised companies or the regulator. Furthermore, in the discussions between cloud providers, cloud users, and the regulator, specific challenges in the use of cloud services were addressed, for example, regarding further outsourcing, cloud operations, use of third-party audit results, aspects of IT operations, and the representation of cloud services in the configuration management database (hereinafter referred to as CMDB). [^1]
 
@@ -51,3 +51,20 @@ Cloud services are typically provided as the following service models:
 - Infrastructure as a Service (IaaS, providing computing power and storage space),
 - Platform as a Service (PaaS, providing development platforms), or
 - Software as a Service (SaaS, providing software applications/web applications).
+
+These service models differ in terms of the organizational or technical control possibilities of the user. With IaaS, the user has full control over the IT system from the operating system upwards (i.e., control of the physical environment always lies with the provider), as everything within his area of responsibility is operated, with PaaS, the user only retains control over his applications that run on the platform, and with SaaS, the user essentially hands over all control to the cloud provider. Thus, the higher the complexity of the service model, the generally lower the user's control possibilities in the cloud. However, the loss of control by the supervised company does not alter its regulatory responsibility regarding compliance with legal provisions.
+
+In practice, four deployment models of cloud services are distinguished:
+- **Private Cloud:** Cloud infrastructure that can be exclusively used by a single company.
+- **Community Cloud:** Cloud infrastructure that can be exclusively used by a specific community of companies, including several supervised companies of a single group.
+- **Public Cloud:** Cloud infrastructure that can be freely used by the public.
+- **Hybrid Cloud:** Cloud infrastructure that consists of two or more distinct cloud infrastructures.
+
+Depending on the chosen service model, there is a division of labor between the supervised company and the cloud provider regarding responsibility for the operation of the cloud. Depending on the chosen cloud service and service model, the demarcation of responsibilities lies at different points in the abstract layer model (so-called abstraction boundary).
+
+
+[^2]: EBA/GL/2019/02, Tz. 12 (Begriffsbestimmungen).
+[^3]: Vgl. https://www.bsi.bund.de/dok/6622124
+[^4]: EBA/GL/2019/02, Tz. 12 (Begriffsbestimmungen).
+[^5]: Siehe dazu auch Kapitel V.1
+
