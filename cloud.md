@@ -1,10 +1,10 @@
-#Supervisory Communication on Outsourcing to Cloud Providers
+# Supervisory Communication on Outsourcing to Cloud Providers
 Updated February 2024
 
 
 
 
-#Introduction
+# Introduction
 
 In recent years, the topic of outsourcing to cloud providers in the financial sector has steadily gained relevance. Accordingly, the German Federal Financial Supervisory Authority (BaFin) and the Deutsche Bundesbank have increasingly engaged in discussions with supervised companies about outsourcing to cloud providers in the last few years. At the same time, the German regulatory authority has also entered into dialogue with various cloud providers. The focus of these discussions was initially on the design of (standard) contracts or contractual supplemental agreements, which are also intended to fulfill and regulate the regulatory requirements, e.g., information and audit rights of the supervised companies or the regulator. Furthermore, in the discussions between cloud providers, cloud users, and the regulator, specific challenges in the use of cloud services were addressed, for example, regarding further outsourcing, cloud operations, use of third-party audit results, aspects of IT operations, and the representation of cloud services in the configuration management database (hereinafter referred to as CMDB). [^1]
 
@@ -35,7 +35,7 @@ Due to the nature of the supervisory communication, "should" formulations are de
 >
 > In preparation for DORA, it is advisable to consider the new additional provisions by DORA when modifying business processes and negotiating new contracts for outsourcing to the cloud.
 
-#II. Explanations
+# II. Explanations
 
 The term "outsourcing" in this supervisory communication refers to "outsourcing" in the sense of § 25b of the Banking Act (KWG), § 40 of the Securities Institutions Act (WpIG), § 80 of the Securities Trading Act (WpHG), § 26 of the Payment Services Supervision Act (ZAG), and § 36 of the Investment Code (KAGB) and "divestitures" in the sense of Article 274 of the Delegated Regulation (EU) 2015/35 as well as § 32 of the Insurance Supervision Act (VAG). The term "sub-outsourcing" is used analogously.
 
