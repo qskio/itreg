@@ -1,9 +1,6 @@
 # Supervisory Communication on Outsourcing to Cloud Providers
 Updated February 2024
 
-
-
-
 ## I. Introduction
 
 In recent years, the topic of outsourcing to cloud providers in the financial sector has steadily gained relevance. Accordingly, the German Federal Financial Supervisory Authority (BaFin) and the Deutsche Bundesbank have increasingly engaged in discussions with supervised companies about outsourcing to cloud providers in the last few years. At the same time, the German regulatory authority has also entered into dialogue with various cloud providers. The focus of these discussions was initially on the design of (standard) contracts or contractual supplemental agreements, which are also intended to fulfill and regulate the regulatory requirements, e.g., information and audit rights of the supervised companies or the regulator. Furthermore, in the discussions between cloud providers, cloud users, and the regulator, specific challenges in the use of cloud services were addressed, for example, regarding further outsourcing, cloud operations, use of third-party audit results, aspects of IT operations, and the representation of cloud services in the configuration management database (hereinafter referred to as CMDB). [^1]
@@ -90,7 +87,7 @@ The following explanations apply regardless of the chosen service or deployment 
 The supervised company should reflect considerations for using cloud services in its (IT) strategy. Besides, it should develop and document a process that covers all steps relevant to outsourcing to the cloud provider, from strategy through migration into the cloud to the exit strategy. It is important that the supervised company first checks all relevant internal processes to see if they are "ready for the cloud" before undertaking such outsourcing. In addition to the matters to be outsourced, the risk management and control processes of the supervised company should be considered above all.
 
 ### 2. Analysis and Materiality Assessment
-After the strategic decision for third-party procurement of matters from a cloud provider, at the beginning of the process, the supervised company should check, based on the applicable regulatory requirements, whether an outsourcing exists and whether it is to be classified as material. In general, the conditions for outsourcing are met. The risk analysis should consider all aspects relevant to the supervised company in connection with outsourcing to cloud providers, with the intensity of the analysis depending on the nature, scope, complexity, and risk content of the outsourced matters. The supervised company should evaluate and document, based on the risk analysis, what risks are associated with an outsourcing and whether it constitutes a material outsourcing. If there are regulatory requirements for materiality, these must be observed.
+After the strategic decision for third-party procurement of matters from a cloud provider, at the beginning of the process, the supervised company should check, based on the applicable regulatory requirements, whether an outsourcing exists and whether it is to be classified as material.[^6] In general, the conditions for outsourcing are met. The risk analysis should consider all aspects relevant to the supervised company in connection with outsourcing to cloud providers, with the intensity of the analysis depending on the nature, scope, complexity, and risk content of the outsourced matters. The supervised company should evaluate and document, based on the risk analysis, what risks are associated with an outsourcing and whether it constitutes a material outsourcing. If there are regulatory requirements for materiality, these must be observed.
 
 In the context of the **risk analysis**, the following should generally be considered:
 - the design of the used cloud service,
@@ -109,3 +106,105 @@ In the context of the **risk analysis**, the following should generally be consi
 - an assessment of the risks from further outsourcing by the cloud provider.
 
 In the event of becoming aware of significant defects or significant changes in outsourcing, it should be noted that this can have an impact on the risk situation of the outsourcing and thus of the outsourcing company. In these cases, the risk analysis should be reviewed or re-conducted, regardless of the regular cycle, and if necessary, the outsourcing to the cloud provider should be reversed or initiated to an alternative provider.
+
+[^6]: This approach should be taken if it is stipulated in the respective regulatory requirements. An exception, for example, are the non-differentiated outsourcings according to KAGB.
+
+### 3. Internal Guidelines for the Use of the Cloud
+The supervised company should supplement suitable guidelines in its written order for the use of the cloud, both in terms of the development of cloud applications and for operation. Where sensible, a distinction should be made between general requirements for all applications and providers and specific regulations related to the peculiarities of the individual cloud providers and their cloud services.
+
+Regarding the general requirements, the supervised company should formulate appropriate guidelines that are consistent with the (IT) strategy of the supervised company and its policies and guidelines on information security and IT. Provider and service-specific regulations should be derived based on the risk analysis, advice from cloud providers, own measures for risk reduction, and further insights. Inconsistencies with the general requirements should be avoided. In particular, risk-based guidelines for the use of the cloud should be made depending on the data protection requirements and the location of storage and processing.
+
+The guidelines for the use of the cloud should cover at least the topics of cloud compliance, identity and rights management, encryption and key management, development and operation, hardening of applications, interfaces and environments, control of subcontractors, and IT emergency management, in accordance with the relevant circulars.[^7]
+
+[^7]: Circular 05/2023 (BA) - Minimum Requirements for Risk Management (MaRisk) dated 29.06.2023; Circular 10/2017 (BA) as of 16.08.2021 - Supervisory Requirements for IT in Banking (BAIT); Circular 11/2021 (BA) as of 16.08.2021 - Supervisory Requirements for IT of Payment and E-Money Institutions (ZAIT); Circular 10/2018 (VA) as of 03.03.2022 - Supervisory Requirements for IT in Insurance (VAIT); Circular 11/2019 (WA) - Capital Management Supervisory Requirements for IT (KAIT) dated 01.10.2019.
+
+
+### 4. Resource Allocation and Qualification
+Supervised companies should provide and organizationally anchor sufficient quantitative and qualitative resources for the use of the cloud (personnel, financial, and other resources). This particularly affects governance, risk management, and outsourcing management. The monitoring, control, and audit of cloud outsourcing as well as the development, operation, and security of cloud applications and cloud environments should be adequately considered.
+
+Persons tasked with responsibilities in the cloud environment should have appropriate and relevant competencies and knowledge about the functioning of the cloud, the associated risks, and the technical and organizational specifics associated with cloud operation. 
+
+The extent of the necessary knowledge depends on the tasks to be performed by the person. The more technical the tasks, the more specific the knowledge about the cloud provider and the cloud services should be. The necessary knowledge can be demonstrated through training certificates, participation in relevant further education measures, or relevant practical experience.
+
+### 5. Contract Design for (Material) Outsourcing
+Depending on the regulatory requirements, the following contents should be agreed upon in the outsourcing contract for material outsourcings or for the non-differentiated outsourcings according to KAGB.
+
+>Outlook on DORA
+>
+>**Mandatory Contract Provisions for All ICT Services**
+>
+>Articles 28(7) and 30 of DORA establish minimum requirements for the design of contractual agreements on the use of ICT services between financial companies and ICT third-party service providers. Considering these requirements is also sensible in contract negotiations and arrangements before DORA comes into effect. DORA includes general principles and mandatory contract provisions for contractual agreements on the use of ICT services. For ICT services supporting critical or important functions, additional minimum requirements apply.
+
+#### 5.1 Scope of Services
+The contract should specify and, if necessary, delineate the services to be provided by the cloud provider. The following should generally be determined:
+- the matter to be outsourced and its implementation (e.g., type of service and deployment model, scope of services offered such as computing power or available storage space, availability requirements, response times),
+- customization options for the service in case of a change in needs during the contract term, e.g., the addition of extra security measures if the protection requirement changes or an adjustment of the service level promised by the provider to the demand notifications from performance and capacity management
+- Support services,
+- Responsibilities, cooperation, and provision obligations (e.g., for updates),
+- Location of service provision, data processing, and data storage (e.g., locations of data centers),
+- Start and possibly end of the outsourcing contract,
+- Metrics for ongoing review of service quality, where possible, quantitative metrics should be used, and
+- Indicators for identifying unacceptable service quality, e.g., related to non-availability and data loss.
+These aspects can be specifically tailored for the used cloud services.
+
+>Outlook on DORA
+>**Description of All Functions and ICT Services**
+>According to Article 30(2)(a) of DORA, financial companies and ICT third-party service providers are obliged to agree on a clear and complete description of all functions and ICT services as a contractual element. This applies regardless of whether the ICT services support critical or important functions.
+
+#### 5.2 Information and Audit Rights of the Supervised Company
+The information and audit rights as well as control possibilities of the supervised company must not be contractually restricted. It must be ensured that the supervised company receives timely the information it needs for the appropriate management and monitoring of the risks associated with the outsourcing. This information should generally be retained by the supervised company for at least five years.
+
+To ensure the information and audit rights, the following should particularly be agreed upon contractually:
+- the provision of unrestricted access to information and data as well as access to the business premises of the cloud provider, including all data centers, devices, systems, and networks used to provide the outsourced matters; this includes the related processes and controls,
+- effective control and audit possibilities as well as the option of conducting on-site audits at the cloud provider.
+
+Regarding significant sub-outsourcing, it should be ensured that equivalent information and audit rights are agreed upon for the entire outsourcing chain.
+
+##### 5.2.1 No (Indirect) Restriction of Rights
+The effective exercise of information and audit rights must not be restricted by contractual agreements. The German supervisory authority particularly considers agreements that grant these rights only under certain conditions as an impermissible restriction of the information and audit rights.
+
+These include in particular:
+- the agreement of tiered information and audit procedures, e.g., the obligation to first rely on the audit reports, certificates, or other proofs of compliance with recognized standards by the cloud provider before the supervised company can carry out its own audit actions,
+- a limitation of fulfilling the information and audit rights to the presentation of audit reports, certificates, or other proofs of compliance with recognized standards by the cloud provider,
+- linking access to information to prior participation in special training programs,
+- the formulation of a clause in which the conduct of an audit is made dependent on commercial reasonableness,
+- a temporal and personal limitation on the conduct of audits, where a restriction of access to usual business hours upon prior notification is generally considered reasonable,
+- a reference to the exclusive use of management consoles for exercising the company's information and audit rights,
+- a specification of the procedure and scope of exercising the information and audit rights by the cloud provider,
+- a reference to internal implementation guidelines of the cloud provider that provide for restrictions of the contractually agreed rights, and
+- costs that could limit or hinder the exercise of the information and audit rights due to their amount. The same applies to access to information and documents that is only available on-site.
+
+##### 5.2.2 Alternative Audit Approaches
+Depending on the relevant regulatory requirements, supervised companies can use alternative audit approaches to make their audit actions more efficient.[^8]  If the supervised company intends to use these alternative audit approaches, they should be appropriately considered in the contract design with the cloud provider.
+
+If a supervised company takes advantage of one of the alternative audit approaches mentioned in Chapter V.4.2, this must not lead to a restriction of its information and audit rights. However, the supervised company should not be obligated by the cloud provider to utilize one of the alternative audit approaches.
+
+[^8]: Refer also to Chapter V.4.2 for more details.
+
+>Outlook on DORA
+>**Exception for Micro-enterprises**
+>According to Article 30(3) second sentence of DORA, the ICT third-party service provider and the micro-enterprise (see Art. 3(60) DORA) may agree that the access, inspection, and audit rights of the financial company can be transferred to an independent third party designated by the ICT third-party service provider. However, the financial company should then be able to demand information and assurance from the third party regarding the services at any time.
+
+#### 5.3 Information and Audit Rights of the Supervisory Authority
+The information and audit rights as well as the control capabilities of the supervisory authority must not be contractually or through internal implementation guidelines of the cloud provider restricted. The supervisory authority must be able to control the outsourced matter at the cloud provider just as it would at the supervised company according to the respective relevant laws. Accordingly, it must be contractually agreed that the supervisory authority can properly and unrestrictedly exercise its information and audit rights as well as control capabilities in regard to the outsourced matter; this also applies to those persons whom the supervisory authority uses in the conduct of audits. In particular, it should be possible for the supervisory authority to exercise information and audit rights at least for a period of five years after the end of the contract.
+
+To ensure the information and audit rights of the supervisory authority, the following should particularly be agreed upon contractually:
+- the obligation of the cloud provider to cooperate fully with the supervisory authority,
+- the provision of unrestricted access to information and data as well as access to the business premises of the cloud provider, including all data centers, devices, systems, and networks used to provide the outsourced matters; this includes the related processes and controls,
+- effective control and audit possibilities as well as the option of conducting on-site audits at the cloud provider.
+
+Regarding significant sub-outsourcings, it should be ensured that equivalent information and audit rights are agreed upon for the entire outsourcing chain.
+
+Regulations that grant these rights only under certain conditions are considered an impermissible restriction of the information and audit rights as well as control capabilities of the supervisory authority. To avoid repetition, reference is made to the above statements on the restriction of the rights of the supervised companies (see 5.2.1).
+
+#### 5.4 Instruction Rights
+Instruction rights of the supervised companies should be agreed upon. These instruction rights should ensure that all necessary instructions required for the fulfillment of the agreed service can be issued, i.e., there needs to be a possibility of influence and control over the outsourced matter. Instructions can be given technically (management console, Application-Programming-Interfaces (APIs)). The implementation can be individually designed.
+
+If the supervised company utilizes evidence/certifications or audit reports (see Chapter V.4.2.3.), it should also have the possibility to influence the scope of the evidence/certifications or audit reports, so that it can be extended to relevant systems and controls. The number and frequency of such instructions should be proportionate.
+
+Furthermore, the supervised company should always be authorized to issue instructions to the cloud provider regarding the correction, deletion, and blocking of data, and the cloud provider may only collect, process, or use the data within the framework of the instructions issued by the supervised company. The right of instruction should also include the possibility of issuing an instruction for the immediate and unrestricted repatriation of the data processed by the cloud provider to the supervised company at any time.
+
+If it is possible to forgo the explicit agreement of instruction rights in favor of the supervised company, the service to be provided by the outsourcing company must be specified clearly enough in the outsourcing contract.
+
+
+
