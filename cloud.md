@@ -182,7 +182,9 @@ If a supervised company takes advantage of one of the alternative audit approach
 [^8]: Refer also to Chapter V.4.2 for more details.
 
 >Outlook on DORA
+>
 >**Exception for Micro-enterprises**
+>
 >According to Article 30(3) second sentence of DORA, the ICT third-party service provider and the micro-enterprise (see Art. 3(60) DORA) may agree that the access, inspection, and audit rights of the financial company can be transferred to an independent third party designated by the ICT third-party service provider. However, the financial company should then be able to demand information and assurance from the third party regarding the services at any time.
 
 #### 5.3 Information and Audit Rights of the Supervisory Authority
@@ -206,5 +208,65 @@ Furthermore, the supervised company should always be authorized to issue instruc
 
 If it is possible to forgo the explicit agreement of instruction rights in favor of the supervised company, the service to be provided by the outsourcing company must be specified clearly enough in the outsourcing contract.
 
+#### 5.5 Data Security/Protection (Note on the Location of Service Provision)
+Agreements must be made to ensure that both data protection regulations and regulatory requirements for information security are complied with.
+
+The location of service provision should be known to the supervised company and specifically include the location of the data centers. Generally, naming the city is sufficient. However, if a supervised company requires the exact address of the data centers, the cloud provider should provide it.
+
+Moreover, the redundancy of data and systems according to their protection needs should be ensured so that the continuity of cloud services is guaranteed in case of a data center failure. This can usually be implemented configuratively by the supervised company, depending on the cloud services.
+
+The protection and security of data and systems must also be ensured within the entire outsourcing chain.
+
+The supervised company should always be able to access its data stored with the cloud provider and, if necessary, repatriate it. It should be ensured that the chosen form of repatriation does not restrict or make impossible the use of data. Therefore, platform-independent standard data formats should be agreed upon where possible. The compatibility of different systems must be considered.
+
+>Outlook on DORA
+>
+>**Consideration of the Latest and Highest Quality Standards for Information Security**
+>
+>Article 28(5) of DORA requires financial companies, before concluding agreements with ICT third-party service providers concerning critical or important functions, to appropriately consider whether ICT third-party service providers apply the latest and highest quality standards for information security. Corresponding contractual agreements must ensure the availability, authenticity, integrity, and confidentiality of data.
+
+#### 5.6 Termination Provisions
+Termination rights and appropriate notice periods should be agreed upon. In particular, a special right of termination should be agreed for the supervised company, which provides for termination for cause if the supervisory authority demands the termination of the contract. Termination for cause should also be possible, in particular, if
+- the cloud provider violates applicable law, regulations, or contractual provisions concerning the outsourced matter,
+- obstacles exist that may impair the performance of the outsourced matters, or unacceptable impacts on the quality of service are identified,
+- significant changes occur that affect the outsourcing agreement or the cloud provider (e.g., sub-outsourcing or changes among subcontractors), and
+- deficiencies regarding the handling and security of confidential, personal, or otherwise sensitive data or information occur.
+
+It must be ensured that the matters outsourced to the cloud provider are provided until a complete transfer to another (cloud) provider or back to the supervised company has taken place, in case of termination. In particular, it must be ensured that the cloud provider adequately supports the supervised company in transferring the outsourced matters to another (cloud) provider or directly back to the supervised company.
+
+The manner, form, and quality of the handover of the outsourced matter and data should be defined. To the extent that data formats are adapted to the individual needs of the supervised company, the cloud provider should provide documentation of these adaptations upon termination.
+
+It should be agreed that, after the data has been transferred back to the supervised company, its data will be completely and irrevocably deleted by the cloud provider.
+
+For supervised companies that fall under the scope of the Act on the Recovery and Resolution of Institutions and Financial Groups (SAG), the agreements made for material outsourcing must take into account the powers of directive in the sense of § 80 paragraphs 1 and 2 SAG.
+
+To ensure the continuity of the outsourced areas in the event of planned or unplanned termination of the contract, the supervised company should maintain an exit strategy and verify its feasibility.
+
+>Outlook on DORA
+>
+>**Extended Special Termination Rights and Minimum Notice Periods**
+>
+>Article 28(7) of DORA mentions additional special termination rights as a mandatory contractual component in agreements on the use of ICT services. Likewise, according to Article 30(2)(h) of DORA, termination rights and related minimum notice periods for ending contractual agreements are to be agreed upon according to the expectations of the competent authorities and resolution authorities.
+>
+>Furthermore, according to Article 28(8) in conjunction with Article 30(3)(f) of DORA, for ICT services supporting critical or important functions, exit strategies are to be developed and a binding appropriate transition period is to be agreed upon. The contractual agreements made must be designed in such a way that uninterrupted business activity, compliance with regulatory requirements, and the continuity and quality of services provided to the customer are ensured.
+
+#### 5.7 Sub-outsourcing
+Agreements must be made regarding the possibility and the modalities of sub-outsourcing, ensuring that regulatory requirements continue to be met. Restrictions to the effect that only broadly similar obligations are assumed are not permissible. In particular, it must be ensured that the information and audit rights as well as control capabilities of the outsourcing supervised company and the supervisory authority are maintained in the case of sub-outsourcing, also towards the subcontractors.
+
+Regarding sub-outsourcing, consent provisions of the outsourcing company or specific conditions under which sub-outsourcings are allowed should be agreed upon in the outsourcing contract. It should be defined which outsourced matters or parts thereof may be sub-outsourced and which may not. Where this is not possible, at least obligations for prior notification should be agreed upon. The supervised company should be informed in writing well in advance about sub-outsourcings of the outsourced matters or parts thereof, or where required, the consent of the supervised company should be obtained. The potentially relevant subcontractors and the matters or parts thereof that are sub-outsourced to them should be known to the supervised company.
+
+In the event of a new or changed sub-outsourcing, it must be considered that this affects the risk situation of the outsourcing and thus of the outsourcing company. Accordingly, in the event of a new or changed sub-outsourcing, the risk analysis should at least be reviewed or re-conducted. This also applies in the event of becoming aware of significant defects as well as significant changes in the cloud service provided by subcontractors.
+
+#### 5.8 Information Obligations of Cloud Providers
+Agreements must be made to ensure that the cloud provider informs the supervised company about developments that can impair the proper execution of the outsourced matters. The obligation to provide information includes, for example, the reporting of incidents and information security incidents in the provision of the cloud service. This is intended to ensure appropriate monitoring of the outsourced matter by the company.
+
+The cloud provider should immediately inform the supervised company about circumstances that could pose a threat to the security of the data to be processed by the cloud provider for the supervised company, e.g., due to actions by third parties (e.g., seizure or confiscation), through insolvency or settlement proceedings, or due to other events.
+
+The scope and preparation of the information provided by the cloud provider should be such that the supervised company can respond appropriately. In particular, the supervised company should be enabled to recognize and assess changes in its risk situation.
+
+It should be ensured that the supervised company is appropriately informed in advance about relevant changes to the cloud service to be provided by the cloud provider. Service descriptions and their possible changes should be made available to the supervised company in text form or communicated. It should be ensured that the supervised company is informed about inquiries/requests by third parties for the release of the supervised company's data, to the extent that this is legally permissible.
+
+#### 5.9 Note on Applicable Law
+Especially for reasons of legal certainty, care should be taken when agreeing on a choice of law clause to ensure that – unless German law is agreed upon – the law of a state of the European Union or the European Economic Area applies to the contract. If this is not possible, all requirements for legal enforceability should remain guaranteed.
 
 
