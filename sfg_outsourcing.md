@@ -1,4 +1,4 @@
-# Special IT Panel on "Cloud/Outsourcing"
+# Sonderfachgremium IT on "Cloud/Outsourcing"
 
 ## Minutes
 Special IT Panel on "Cloud/Outsourcing"  
