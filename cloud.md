@@ -148,7 +148,9 @@ The contract should specify and, if necessary, delineate the services to be prov
 These aspects can be specifically tailored for the used cloud services.
 
 >Outlook on DORA
+>
 >**Description of All Functions and ICT Services**
+>
 >According to Article 30(2)(a) of DORA, financial companies and ICT third-party service providers are obliged to agree on a clear and complete description of all functions and ICT services as a contractual element. This applies regardless of whether the ICT services support critical or important functions.
 
 #### 5.2 Information and Audit Rights of the Supervised Company
@@ -268,5 +270,158 @@ It should be ensured that the supervised company is appropriately informed in ad
 
 #### 5.9 Note on Applicable Law
 Especially for reasons of legal certainty, care should be taken when agreeing on a choice of law clause to ensure that – unless German law is agreed upon – the law of a state of the European Union or the European Economic Area applies to the contract. If this is not possible, all requirements for legal enforceability should remain guaranteed.
+
+## IV. Secure Application Development and IT Operation in the Cloud 
+
+>Outlook on DORA
+>
+>**ICT Risk Management**
+>
+>Chapter II of DORA contains extensive regulations on ICT risk management. The requirements for ICT risk management are based on international, national, and industry-specific best practices and standards. They include the following specific elements in the area of ICT risk management: identification, protection and prevention, detection, response and recovery, learning processes, further development, and communication.
+>
+>They aim to maintain or, if necessary, restore the operational capacity of financial companies, especially with regard to cyber threats. Thus, the requirements ensure that financial companies achieve appropriate digital operational resilience for themselves – meaning they are resilient and adaptable enough to maintain their digital operational processes during and after a disruption.
+>
+>The principles and regulations set out in DORA, including those related to application development and IT operation in the cloud, will be further specified by RTS, so the concrete requirements are not yet determined.
+
+### 1. Application Development and IT Operation by the Supervised Company
+Supervised companies are increasingly relying on the development of application programs based on cloud services provided by cloud providers. These applications can also be highly complex and use cloud services with complicated configuration options, which are partly provider-specific. The risks arising in this context should be appropriately considered both in application development and IT operation.
+
+The guidance provided in this chapter, based on existing regulatory requirements, addresses the specific challenges and risks associated with the use of the cloud and outlines possible solutions. It aims to create transparency about the supervisory understanding of problem areas in application development and IT operation in the cloud and describe commonly appropriate measures.
+
+#### 1.1 Development of Cloud Applications and Configuration of Cloud Environments
+Cloud applications are often developed using agile methods, employing DevOps and DevSecOps principles. Alongside further requirements from relevant circulars, it is particularly important to ensure that requirements for the separation of duties are not violated and potential conflicts of interest are avoided. This can be partially supported by organizational measures or the use of technical tools, e.g., CI/CD pipelines or automated tests. Regardless of possible automated testing processes, risk-oriented manual testing actions, such as code reviews, may still be necessary.
+
+#### 1.2 Use of (Architecture) Guidelines
+Cloud providers typically offer design principles and best practices for development and IT operation in the cloud (commonly referred to as "Well-Architected Frameworks"). These usually include recommendations on reliability, security, cost, operation, and efficiency. Additionally, cloud providers typically recommend in their documentation for various cloud services the activation of specific security settings.
+
+These recommendations should be aligned with the supervised company's own (architecture) guidelines when using complex cloud services and applications. If risks arise from deviations from the cloud provider's recommendations, they should be managed within the risk management framework.
+
+#### 1.3 Technical Implementation of (Architecture) Guidelines
+To ensure that deviations from key points of standard architectures and operational requirements cannot occur, supervised companies should specify (architecture) guidelines in the cloud to technically implement them in the development of cloud applications and in the configuration of cloud environments.
+
+If these are not technically implemented, deviations should ideally be technically monitored. The risks arising from non-implementation should be documented and managed within the risk management framework.
+
+Particularly, the following non-exhaustive aspects should be considered:
+- the restriction of permissible cloud services and locations or regions of data centers,
+- the use of encryption and permitted cryptographic methods, depending on the protection requirements of the processed data,
+- setting secure default settings for cloud services and the cloud environment to ensure the protection goals of confidentiality, integrity, availability, and authenticity,
+- restrictive restriction of cloud access paths not intended for the public, e.g., to explicitly authorized hardware, software, and network areas with defined security features, differentiated by the criticality of individual cloud applications,
+- the separation of production environments from development, test, and other environments,
+- the use of multi-factor authentication for non-technical users,
+- the regular (automated) execution of backups,
+- the use of logging and monitoring data and the protection of this data from unauthorized access, manipulation, or unauthorized deletion.
+
+To avoid unauthorized changes to standard configurations and architectures, access to cloud environments should be restricted and preferably occur only through programmatic API calls ("Infrastructure-as-Code").
+
+#### 1.4 Monitoring of the Supervised Company's Cloud Operational Processes
+The cloud environments set up by the supervised company, the cloud services used, and the cloud applications developed should be continuously monitored by the supervised company.
+
+This includes regular exchanges between supervised companies and cloud providers on topics such as performance and capacity management or lifecycle management, and the risk-based and possibly automated evaluation of notifications from the cloud provider, occurring error and warning messages, and the monitoring of the integrity of cloud configurations. Depending on the availability requirements, the availability of cloud applications should be checked and evaluated.
+
+### 2. Cyber and Information Security
+Cloud applications often contain sensitive data and thus, in the event of a failure, can impact critical business processes. Simultaneously, the development, operation, and use of cloud applications are often associated with a significant increase in the attack surface on the internet. As cloud technologies are utilized by many companies, even complex attack methods can often be applied, potentially even in an automated manner. Concurrently, the complexity of the cloud can facilitate potential misconfigurations and the loss of a comprehensive overview of infrastructure and utilized resources (including tools and interfaces for cloud administration provided by the providers), thereby easing the facilitation of cyber attacks.
+
+The foundation should be an analysis of potential attackers, attack targets, and attack methods, covering both a general, non-targeted cyber threat landscape and company- and application-specific threats (Threat Intelligence). This information should be considered in all phases of development, operation, and use, and contribute to the determination of cyber and information risks.
+
+To ensure an adequate level of cyber and information security, supervised companies should particularly take measures to secure their network connections against disruption and unauthorized monitoring, e.g., through DDoS mitigation, transport encryption, or dedicated connections to the cloud provider. Application and infrastructure architectures should be designed to make penetration or the spread of unauthorized access as difficult as possible, e.g., through the use of firewalls, network segmentation, multi-factor authentication, or Zero Trust. This also includes the detection and protection against unauthorized data exfiltration, e.g., through Data Loss Prevention.
+
+The rule-based evaluation of potentially security-relevant information from supervised companies should be integrated with the data sources of the cloud provider. In case of separate structures and data sources (SOC, SIEM, etc.) on the part of the supervised company for monitoring the cloud environment and other IT systems, these should be fully integrated.
+
+In the compilation and evaluation of potentially security-relevant information, responsibilities and procedures for investigating security-relevant events and resulting information security incidents should be defined, this also affects the interface to the cloud provider. Supervised companies should also agree that they are promptly informed by the cloud provider about events and information security incidents relevant to the supervised company's security.
+
+In the event of an information security incident, appropriate measures should ensure that administrative access is possible even if primary connection pathways and devices are disrupted. Backups of business-critical data and configurations should be stored at regular intervals additionally outside the affected cloud, e.g., on-premise or with another cloud provider.
+
+Cloud applications that are critical services (KRITIS) or substantially support these, as well as cloud applications identified as particularly important in the context of protection needs analyses, should undergo regular penetration testing. There is also the possibility of conducting Threat-Led Penetration Testing (TLPTs) involving the cloud provider. Training on cyber and information security should be mandatory for all internal and external employees using cloud applications, and should be tailored to their prior knowledge, tasks, and the potential risks they face.
+
+### 3. Emergency Management
+The emergency concepts and IT contingency plans of the cloud provider and the supervised company should be coordinated. If the cloud provider's emergency concepts and IT contingency plans cannot be adapted to those of the supervised company, the outsourcing company should gain knowledge about the cloud provider's emergency procedures and align its own processes, architectures, and other precautions accordingly. Possible risks from deviations in the cloud provider's processes should be managed within the framework of risk management.
+
+IT contingency plans should be tested regularly[^9], and the supervised company should use suitable emergency scenarios for these tests. If a joint test with the cloud provider is not possible, it should be ensured that all affected components are sufficiently covered by own tests or by appropriate test evidence.
+
+[^9]: Sector-specific regulations must be observed; for example, annual IT emergency tests according to section 10.4 of the BAIT (Banking Supervisory Requirements for IT).
+
+#### 4. Exit Strategy
+Part of an exit strategy should be the identification of specific alternative solutions and the development of appropriate and feasible plans for a change of provider or a repatriation to the outsourcing company, with a view to the respective cloud applications. The requirements of emergency management should also be considered in the transfer.
+
+The supervised company should develop exit plans against the backdrop of exit scenarios that specifically relate to the used cloud services. These exit plans should risk-based reflect the scope and time horizon of a termination of service provision. The use of different cloud providers should be considered. The exit scenarios to be considered also include the unintended or unexpected permanent loss of the specifically used cloud services.
+
+Supervised companies should be able to switch to alternative solutions, taking into account proportionality, without interruption of business activities, restriction of regulatory compliance, or impairment of the availability and quality of services to customers.
+
+Exit plans should be sufficiently documented and tested, with particular emphasis on the necessary resources, time frames, responsibilities, and support services both internally and on the part of the cloud provider.
+
+## V. Monitoring and Control of Outsourcing to Cloud Providers
+### 1. Information Network and Model of Shared Responsibility
+Depending on the chosen service model, there is a division of labor between the supervised company and the cloud provider regarding responsibility for the operation of the cloud. Simplistically, these areas of responsibility can often be schematically represented in layers (e.g., data center, network, physical servers, virtualization, operating system, middleware, application, data).[^10]
+
+Depending on the chosen cloud service and service model, the demarcation of responsibilities lies at different points in the abstract layer model. The supervised company should define and document a clear distribution of well-defined tasks and responsibilities in relation to the operational functions and activities within its information network for all used cloud services.
+
+Supervised companies should ensure a complete representation in an inventory directory of IT system components and their relationships to each other for the layers that fall under their own responsibility. From a proportionality perspective, there can be different ways to meet the requirements for an inventory directory of IT system components and their interrelations. For example, a CMDB serves to ensure a documented overview of the components/service elements and their configuration necessary for maintaining or restoring the business process. The supervised company should individually decide which information of those layers that fall under the cloud provider's responsibility should also be included in the CMDB of the supervised company. For layers solely under the cloud provider's responsibility, components of the cloud provider are usually not included in the supervised company's CMDB.
+
+[^10]: Cloud providers often use the term "Shared Responsibility" for this concept.
+
+### 2. Monitoring of Service Provision
+Supervised companies should take appropriate technical and procedural precautions, oriented towards risk, to monitor the services provided by cloud providers, to collect, analyze, and evaluate the necessary information in a timely, complete, and comprehensive manner. Cloud providers and supervised companies should jointly ensure that all required information can be provided and accessed in a suitable format.
+
+#### 2.1 Monitoring of Service Quality
+Supervised companies should continuously monitor the quality of service, regardless of whether the cloud service is provided by the cloud provider or their subcontractors, using the measures from 4.1 as a reference.
+
+For significant outsourcing or non-differentiated outsourcing according to KAGB, both the service quality metrics (as contractually agreed in the Service-Level Agreement (SLA)) and company-specific indicators should be regularly collected and evaluated. The data provided by the cloud provider should be validated as needed through appropriate analyses or measurements. For ongoing monitoring, supervised companies should define internal processes and threshold values for warning levels when approaching unacceptable service quality. Upon exceeding these thresholds, predefined communication and escalation processes to internal stakeholders and the cloud provider should be activated.
+
+If the actual service quality falls below the contractually agreed level, the supervised company should ad hoc evaluate any potential limitations and risks that may arise and take measures for risk reduction if necessary. If the service quality drops below the pre-established threshold for an unacceptable level for a significant period, the supervised company, in addition to risk reduction measures, should consider preparatory steps for changing providers and possibly initiate the termination of the outsourcing relationship.
+
+#### 2.2 Monitoring Changes to the Service Scope
+Supervised companies should ensure that they are informed by the respective cloud providers about changes to the service scope, such as changes to interfaces, the performance of cloud services, SLAs, or planned maintenance, with sufficient lead time, or align the internal processes of the supervised company with the agreed deadlines with the cloud provider. Supervised companies should continuously monitor changes and planned changes to the service scope by evaluating notifications from cloud providers on an ongoing basis and holding regular discussions with the service provider.
+
+Changes should be documented and evaluated in an impact analysis before their implementation, focusing in particular on information security objectives and initiating necessary measures, such as changes to application architecture. For major changes, periods with increased support requirements on the part of the supervised company should also be planned.
+
+### 3. Monitoring of Information Security
+#### 3.1 Monitoring the Security Level
+Supervised companies should continuously ensure that the respective cloud providers maintain an adequate level of data and system security in processing, transmitting, and storing data, in line with the respective protection needs, and implement information security measures. Measures from 4.1 can be utilized for this purpose. For significant outsourcing, or non-differentiated outsourcing according to KAGB, these measures should at least include:
+- Organization of information security and risk management,
+- Identity and rights management,
+- Encryption and key management,
+- Operational security aspects (incident management, change management, logging and monitoring, backup, vulnerability management, network security, etc.),
+- Security of Application Programming Interfaces (API),
+- Management of subcontractors,
+- IT emergency management.
+Supervised companies should regularly and on an ad-hoc basis determine the achieved security level.
+
+#### 3.2 Monitoring of Information Security Incidents and Disruptions at the Cloud Provider
+In addition to the integration of processes to ensure cyber and information security described in Chapter IV.2, supervised companies should ensure that cloud providers promptly report unplanned deviations from regular operations (disruptions) and information security incidents to the supervised company with a preliminary, predefined risk assessment. If possible, the cloud provider should provide temporary workarounds for errors. Based on predefined escalation levels and thresholds, the supervised company should identify and address information security incidents with the cloud provider.
+In case of disagreements in managing information security incidents between the supervised company and the cloud provider, escalation procedures and possibly directive rights should be agreed upon. Following the initial report, cloud providers should also promptly provide the company with a comprehensive presentation of the facts and a root cause analysis, including any additional security measures taken. These should be evaluated by the supervised company and considered in risk management if necessary.
+Furthermore, the supervised company should, possibly together with the cloud provider, conduct learning processes, in which, among other things, the communication between the cloud provider and the supervised company is examined.
+
+### 4. Implementation of Monitoring and Control Measures
+The supervised company should allocate an appropriate budget for the costs arising from planned monitoring, control, and audit measures.
+
+#### 4.1 Regular and Ad-Hoc Monitoring and Control Activities
+Monitoring measures by supervised companies can take various forms and should be oriented towards the risks associated with the outsourced matter. Regular monitoring activities should be scheduled and performed by the technically and professionally responsible departments in the supervised company and control functions according to a monitoring plan. In addition, ad-hoc monitoring measures should be carried out, especially in the event of incidents, uncertainties about the functioning of certain aspects of the cloud, or to develop a better understanding of the risk situation. Suitable measures could include:
+- Discussions with customer service representatives of the cloud provider,
+- Evaluation of the technical documentation and whitepapers of the cloud providers,
+- Evaluation of customer-specific and general metrics (e.g., KPI, KCI, KRI), reports, and analyses of the cloud provider,
+- Audit reports and certificates[^11],
+- Inspections, and
+- In-depth analyses with experts of the cloud provider on specific topics.
+Monitoring measures should be documented and can lead to the agreement of further measures, the implementation of which should again be monitored by the supervised company.
+
+[^11]: See the minutes of the Special Expert Committee on Cloud on the topic "Certificates" from October 7, 2021. Link see footnote 1.
+
+#### 4.2 Audits at Cloud Providers
+Supervised companies are obligated to ensure appropriate information and audit rights in the event of outsourcing (significant) matters. The supervisory framework provides organizational options to facilitate the implementation of these rights (see BT 2.1 Tz. 3 Circular 05/2023 (BA) - Minimum Requirements for Risk Management – (MaRisk); Guideline 11 Tz. 42 lit. a EIOPA Guidelines on Outsourcing to Cloud Providers; Guideline 6 Tz. 37 lit. a ESMA Guidelines on Outsourcing to Cloud Providers).
+Such facilitations include pooled audits, commissioning third parties to conduct an audit, or external/internal audit reports from cloud providers. The internal audit department of the supervised company may also rely on evidence/certificates created by third parties. These alternative audit approaches and the use of certifications in the conduct of audit actions must meet supervisory requirements. Such facilitations must not lead to a restriction of the information and audit rights of the supervised company.
+
+##### 4.2.1 Conducting Pooled Audits
+Audit activities can be conducted as a "pooled audit" or "pooled audit" on behalf of several outsourcing supervised companies through the internal audits of the supervised companies or by a third party commissioned by the outsourcing supervised companies. It should be ensured that the supervised company has sufficient influence on the planning and execution of the audit.
+All supervised companies involved in the audit should have access to audit evidence. If this audit evidence is stored in a (shared) data room, the protection objectives must be ensured. To prove integrity, at least an overview of the audit evidence and associated hash values should be stored at the supervised companies and checked on a sample basis and as needed.
+
+##### 4.2.2 Using Reports from the Internal Audit of the Cloud Provider
+The audit activity of the supervised company regarding the outsourcing to the cloud can be taken over by the internal audit of the cloud provider if it meets the supervisory requirements for the internal audit of the supervised company itself. It is initially irrelevant whether the audit activities are performed by the audit of the cloud provider or outsourced to an external third party. The audit reports should be transmitted directly from the internal audit of the cloud provider to the internal audit of the supervised company. To avoid audit gaps, the audit scope should not be limited to the contracted matters but should also include the resources and processes needed for their provision. The internal audit of the outsourcing company must regularly verify compliance with these conditions, e.g., through appropriate certifications (e.g., DIIR Audit Standard No. 3 or IDW PS 983) or its own audit actions.
+
+##### 4.2.3 Using Evidence/Certificates and Audit Results from Independent Third Parties
+The internal audit of the outsourcing supervised company can also rely on evidence/certificates from independent third parties but should not solely base on them for significant outsourcings.
+A prerequisite for using such certificates and audit evidence is that they specifically concern the used cloud services, cover a relevant period, and were created by a suitable, independent auditor observing common audit standards. The same applies to internal audit reports of the cloud provider.
+Commonly accepted standards for information security and cloud (e.g., ISO 27001, BSI C5, SOC2, CSA CCM), audited by auditing firms according to generally recognized audit standards (e.g., SSAE 18, ISAE 3402, IDW PS 951) or by accredited auditors, are typical.
+When using evidence/certificates and audit results from independent third parties in the form of audit reports, it is important to note that the themes and depth of various audit forms can vary greatly. The supervised company should particularly consider the scope, detail, currency, and suitability of the audit reports as well as the suitability of the auditor. Therefore, it is generally not sufficient for a supervised company to merely ensure that evidence (e.g., just the certificate itself) exists. Rather, it should analyze the associated audit report to consider which emphases were made, what findings were made, and what comments were made. Under this condition, the use of audit results may be sufficient for areas of low complexity and low risk (e.g., physical security, fire extinguishing system in the data center), but for complex matters or higher risk, additional own control and monitoring actions are necessary. Furthermore, findings from audits by the internal audit of the supervised company can also be considered.
+
 
 
