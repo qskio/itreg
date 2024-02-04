@@ -45,7 +45,7 @@ The term "matters" is used collectively for "activities and processes" in the se
 
 The terms "cloud environment" and "cloud application" are used in this supervisory communication as follows: Cloud environments are tenant-capable resources provided by cloud providers and largely configurable by the supervised company, in which individual cloud services of the cloud provider can be utilized. Cloud applications refer to application programs that are based on the cloud services provided by cloud providers but are outside the operational responsibility of the cloud provider.
 
-"Cloud services" are services delivered using cloud computing, i.e., a model that enables ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (such as networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.
+"Cloud services" are services delivered using cloud computing, i.e., a model that enables ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (such as networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.[^2]
 
 Cloud services are typically provided as the following service models:
 - Infrastructure as a Service (IaaS, providing computing power and storage space),
@@ -67,3 +67,15 @@ Depending on the chosen service model, there is a division of labor between the 
 [^4]: EBA/GL/2019/02, Tz. 12 (Begriffsbestimmungen).
 [^5]: Siehe dazu auch Kapitel V.1
 
+The following explanations apply regardless of the chosen service or deployment model:
+
+> Outlook on DORA
+> **ICT Services**
+> DORA defines the term of ICT service in Article 3(21) as digital services and data services that are permanently provided to one or more internal or external users via ICT systems. Under DORA, the distinction between "outsourcing" and "other external procurement (of IT services)" is no longer made.
+> 
+> **Critical or important function**
+> DORA contains special provisions for the use of ICT services to support "critical or important functions" as defined in Article 3(22). These are functions,
+> - whose failure would significantly impair the financial capability, solidity, or continuation of business activities and services, or
+> - whose interrupted, defective, or failed performance would significantly impair the ongoing compliance with the licensing conditions and obligations of a financial company or its other obligations under the applicable financial services law.
+> 
+> In preparation for DORA, it is advisable to more heavily weigh the impact of ICT services on the financial capability, solidity, or continuation of business activities and services, as well as the ongoing compliance with the licensing conditions and obligations of the financial company or its other obligations under the applicable financial services legislation in the risk analysis.
