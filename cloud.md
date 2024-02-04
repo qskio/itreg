@@ -340,7 +340,7 @@ IT contingency plans should be tested regularly[^9], and the supervised company 
 
 [^9]: Sector-specific regulations must be observed; for example, annual IT emergency tests according to section 10.4 of the BAIT (Banking Supervisory Requirements for IT).
 
-#### 4. Exit Strategy
+### 4. Exit Strategy
 Part of an exit strategy should be the identification of specific alternative solutions and the development of appropriate and feasible plans for a change of provider or a repatriation to the outsourcing company, with a view to the respective cloud applications. The requirements of emergency management should also be considered in the transfer.
 
 The supervised company should develop exit plans against the backdrop of exit scenarios that specifically relate to the used cloud services. These exit plans should risk-based reflect the scope and time horizon of a termination of service provision. The use of different cloud providers should be considered. The exit scenarios to be considered also include the unintended or unexpected permanent loss of the specifically used cloud services.
