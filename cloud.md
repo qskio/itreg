@@ -4,7 +4,7 @@ Updated February 2024
 
 
 
-# I. Introduction
+## I. Introduction
 
 In recent years, the topic of outsourcing to cloud providers in the financial sector has steadily gained relevance. Accordingly, the German Federal Financial Supervisory Authority (BaFin) and the Deutsche Bundesbank have increasingly engaged in discussions with supervised companies about outsourcing to cloud providers in the last few years. At the same time, the German regulatory authority has also entered into dialogue with various cloud providers. The focus of these discussions was initially on the design of (standard) contracts or contractual supplemental agreements, which are also intended to fulfill and regulate the regulatory requirements, e.g., information and audit rights of the supervised companies or the regulator. Furthermore, in the discussions between cloud providers, cloud users, and the regulator, specific challenges in the use of cloud services were addressed, for example, regarding further outsourcing, cloud operations, use of third-party audit results, aspects of IT operations, and the representation of cloud services in the configuration management database (hereinafter referred to as CMDB). [^1]
 
@@ -36,7 +36,7 @@ Due to the nature of the supervisory communication, "should" formulations are de
 >
 > In preparation for DORA, it is advisable to consider the new additional provisions by DORA when modifying business processes and negotiating new contracts for outsourcing to the cloud.
 
-# II. Explanations
+## II. Explanations
 
 The term "outsourcing" in this supervisory communication refers to "outsourcing" in the sense of § 25b of the Banking Act (KWG), § 40 of the Securities Institutions Act (WpIG), § 80 of the Securities Trading Act (WpHG), § 26 of the Payment Services Supervision Act (ZAG), and § 36 of the Investment Code (KAGB) and "divestitures" in the sense of Article 274 of the Delegated Regulation (EU) 2015/35 as well as § 32 of the Insurance Supervision Act (VAG). The term "sub-outsourcing" is used analogously.
 
@@ -83,3 +83,29 @@ The following explanations apply regardless of the chosen service or deployment 
 > - whose interrupted, defective, or failed performance would significantly impair the ongoing compliance with the licensing conditions and obligations of a financial company or its other obligations under the applicable financial services law.
 > 
 > In preparation for DORA, it is advisable to more heavily weigh the impact of ICT services on the financial capability, solidity, or continuation of business activities and services, as well as the ongoing compliance with the licensing conditions and obligations of the financial company or its other obligations under the applicable financial services legislation in the risk analysis.
+
+## III. Preparatory Actions and Governance Framework for Cloud
+
+### 1. Strategic Considerations
+The supervised company should reflect considerations for using cloud services in its (IT) strategy. Besides, it should develop and document a process that covers all steps relevant to outsourcing to the cloud provider, from strategy through migration into the cloud to the exit strategy. It is important that the supervised company first checks all relevant internal processes to see if they are "ready for the cloud" before undertaking such outsourcing. In addition to the matters to be outsourced, the risk management and control processes of the supervised company should be considered above all.
+
+### 2. Analysis and Materiality Assessment
+After the strategic decision for third-party procurement of matters from a cloud provider, at the beginning of the process, the supervised company should check, based on the applicable regulatory requirements, whether an outsourcing exists and whether it is to be classified as material. In general, the conditions for outsourcing are met. The risk analysis should consider all aspects relevant to the supervised company in connection with outsourcing to cloud providers, with the intensity of the analysis depending on the nature, scope, complexity, and risk content of the outsourced matters. The supervised company should evaluate and document, based on the risk analysis, what risks are associated with an outsourcing and whether it constitutes a material outsourcing. If there are regulatory requirements for materiality, these must be observed.
+
+In the context of the **risk analysis**, the following should generally be considered:
+- the design of the used cloud service,
+- the impact of inadequate service quality (solidity or continuation of business activities),
+- the criticality of the matter to be outsourced, i.e., an assessment of whether the matter is critical for the business continuity of the supervised company,
+- an assessment of the risks arising from the chosen service and deployment model,
+- an assessment of the financial, operational (e.g., system failure, sabotage) risks, including legal risks (e.g., enforcement risks, data protection risks) as well as reputation risks and risks that can affect financial capability,
+- an assessment of the suitability of the cloud provider (capabilities, infrastructure, economic situation, corporate and regulatory status, etc.); where appropriate, evidence/certificates based on common standards (e.g., International Security Standard ISO/IEC 2700X of the International Organization for Standardization, C 5 requirements catalog of the Federal Office for Information Security), audit reports of recognized third parties or internal audit reports of the cloud provider can be used,
+- an assessment of concentration risks, including the risks in the case of outsourcing several matters to one cloud provider,
+- an assessment of the risks in case of non-compliance with regulatory and settlement legal requirements (ongoing compliance with the licensing conditions and obligations of the financial company or its other obligations under the applicable financial services law, ensuring data availability incl. access) and an assessment of the risks associated with supervisory restrictions in the countries where the matters are provided or the data is stored or processed,
+- an assessment of the location where data is stored or processed, the location of the cloud provider's corporate headquarters, the geopolitical situation (general stability of politics and security), and the applicable laws (including data protection laws) in the relevant jurisdictions, as well as the enforcement regulations applicable in these jurisdictions, including insolvency regulations in case of the cloud provider's failure,
+- an assessment of the risks to the integrity, availability, confidentiality, and authenticity of the matters as well as the processed or stored data, taking into account
+  - possible access to data by other jurisdictions,
+  - risks due to different interfaces between own and third-party systems,
+  - risks due to extraordinary, also unintentional and unexpected contract termination e.g., data loss, limited portability of data to a new service provider,
+- an assessment of the risks from further outsourcing by the cloud provider.
+
+In the event of becoming aware of significant defects or significant changes in outsourcing, it should be noted that this can have an impact on the risk situation of the outsourcing and thus of the outsourcing company. In these cases, the risk analysis should be reviewed or re-conducted, regardless of the regular cycle, and if necessary, the outsourcing to the cloud provider should be reversed or initiated to an alternative provider.
