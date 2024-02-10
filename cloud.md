@@ -1,5 +1,6 @@
 # Supervisory Communication on Outsourcing to Cloud Providers
 Updated February 2024
+**COURTESY TRANSLATION**
 
 ## I. Introduction
 
